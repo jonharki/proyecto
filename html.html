@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Poyecto 1 - ShoppingApp</title>
+
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+		<link rel="stylesheet" href="css/style.css">
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-horizon.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Cookie|Damion|Pacifico|Pinyon+Script|Yellowtail" rel="stylesheet"> 
+		
+
+</head>
+
+<body>
+
+
+	<h1 class="text-center" id="tituloApp">Shopping App</h1>
+
+<!-- FAVORITOS -->
+	<div class="container" id="favoritosContainer">
+		
+		<div class="row row-horizon">
+
+			<div class="col-sm-4 col-xs-6">	
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+					</div>
+
+				</article>				
+
+			</div>
+
+
+			<div class="col-sm-4 col-xs-6">	
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+					</div>
+
+				</article>				
+
+			</div>
+
+
+			<div class="col-sm-4 col-xs-6">	
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+					</div>
+
+				</article>				
+
+			</div>
+
+
+			<div class="col-sm-4 col-xs-6">	
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+					</div>
+
+				</article>				
+
+			</div>
+
+
+			<div class="col-sm-4 col-xs-6">	
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+					</div>
+
+				</article>				
+
+			</div>
+
+			
+			
+		</div>
+
+	</div>
+<!-- /FAVORITOS -->
+
+<!-- BOTON CREAR -->
+
+<div class="container">
+
+	<div class="row text-center">
+
+		<div class="col-xs-12">
+
+			<button class="btn btn-primary" id="botonUpload">UPLOAD YOUR OWN PRODUCT!</button>
+
+		</div>
+
+	</div>
+
+</div>
+<!-- /BOTON CREAR -->
+
+
+<!-- ARTICULOS -->
+	<div class="container pre-scrollable" id="listadoArticulos">
+
+		<div class="row">
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+			<div class="col-lg-3 col-sm-6">
+
+				<article class="articulo text-center">
+					
+					<img src="http://placehold.it/140x100" class="imagenArticulo img-rounded img-responsive">
+
+					<h4 class="tituloProducto">Product name</h4>
+
+					<span class="precio">$ 50</span>
+
+					<div class="ratingCont"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+				</article>
+
+			</div>
+
+
+		</div>
+
+	</div>
+<!-- /ARTICULOS -->
+
+
+</body>

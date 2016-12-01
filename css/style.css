@@ -1,0 +1,57 @@
+
+#tituloApp{
+
+	margin: 40px 0;
+}
+
+.imagenArticulo {
+
+	margin: auto;
+}
+
+.ratingCont{
+
+	margin-top: 8px;
+
+}
+
+#listadoArticulos {
+
+	background-color: #7580d0;
+	margin-bottom: 40px;
+}
+
+.pre-scrollable {
+
+	max-height: 500px !important;
+}
+
+.articulo {
+
+	padding: 25px;
+}
+
+.list-inline {
+  white-space:nowrap;
+}
+
+#favoritosContainer {
+
+	margin-bottom: 25px;
+}
+
+.precio{
+
+	background-color: #6C499D;
+	border-radius: 5px;
+	color: white;
+	padding: 3px;
+
+}
+
+#botonUpload {
+
+	margin: 50px 0;
+	padding: 10px ;
+	font-size: 20px;
+}

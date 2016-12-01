@@ -1,0 +1,86 @@
+
+.lista {
+  list-style-type: none; 
+}
+
+
+#form {
+	margin-top: 80px;
+}
+
+#form ul {
+  font-family: Montserrat, Lucida, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 15px; 
+}
+
+#form ul li {
+  margin: 2% 0; 
+}
+
+#form ul li input {
+  font-family: Montserrat, Lucida, Verdana, sans-serif;
+  width: 100%;
+  border-radius: 6px;
+  border-color: gray;
+  border-top-width: 0px;
+  border-right-width: 0;
+  border-bottom-width: 1px;
+  border-left-width: 0;
+  padding: 10px 0 10px 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: gray ; 
+}
+
+#nombre {
+  border-top-width: 1px;
+  color: gray !important;
+  
+}
+
+#precioForm {
+  border-top-width: 1px;
+  color: gray !important;
+  
+}
+
+#urlImagen {
+  border-top-width: 1px;
+  color: gray !important;
+  
+}
+
+
+#mail {
+color: gray !important;
+}
+
+#descripcion {
+  font-family: Montserrat, Lucida, Verdana, sans-serif;
+  width: 100%;
+  border-radius: 6px;
+  border-color: gray;
+  border-top-width: 0px;
+  border-right-width: 0;
+  border-bottom-width: 1px;
+  border-left-width: 0;
+  padding: 10px 0 10px 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: gray !important;
+}
+
+#boton {
+  color: white !important;
+  padding: 10px 14px !important;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  width: 130px !important;
+  border-radius: 6px;
+  font-weight: 400 !important; 
+}
+
+#boton:hover {
+  background-color: #6C499D;
+ }
