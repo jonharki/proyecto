@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Poyecto 1 - Individual</title>
+
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+		<link rel="stylesheet" href="css/style.css">
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-horizon.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Cookie|Damion|Pacifico|Pinyon+Script|Yellowtail" rel="stylesheet"> 
+		
+
+</head>
+
+<body>
+	<div ng-controller='ProductController'>
+	<div class="individualContainer container">
+		
+		<div class="row">
+			
+			<div class="col-sm-6">
+				
+				<img src="http://placehold.it/500x500" class="imagenAmplia img-rounded img-responsive">
+
+			</div>
+
+			<div class="col-sm-6">
+				
+				<h2 class="nombreProducto">{{ nombre }}</h2>
+				
+				<p class="fecha text-muted">{{ fecha }}</p>
+
+				<div class="jumbotron">
+					<p class="descripcion">{{ descripcion }}</p>
+				</div>
+				<div>
+					<p> {{ precio }}</p>
+				</div>	
+
+          </div>
+				<div class="ratingCont text-center"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+			</div>
+
+
+		</div>
+
+	</div>
+
+
+
+</body>
