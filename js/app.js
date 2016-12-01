@@ -21,11 +21,14 @@ angular.module('my-app')//haceindo referencia a una instancia ya creada
 		$scope.title='Productos Favoritos'
 	})
 	.controller('ProductController', function($scope){
-		$scope.nombre = 'iphone';
-		$scope.fecha='30 de noviembre';
-		$scope.descripcion='sarasa'
-		$scope.precio='$500';
+		$scope.producto={
+			nombre : 'iphone',
+			fecha: '30 de noviembre',
+			descripcion :'sarasa',
+			precio : '$500',
 
+		}
+		
 
 	})
 })();

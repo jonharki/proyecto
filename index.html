@@ -33,7 +33,53 @@
 	</div>
 
 </div>
+<!-- View-->
+<div ng-controller='ProductController'>
+	<div class="individualContainer container">
+		
+		<div class="row">
+			
+			<div class="col-sm-6">
+				
+				<img src="http://placehold.it/500x500" class="imagenAmplia img-rounded img-responsive">
 
+			</div>
+
+			<div class="col-sm-6">
+				
+				<h2 class="nombreProducto">{{ producto.nombre }}</h2>
+				
+				<p class="fecha text-muted">{{ producto.fecha }}</p>
+
+				<div class="jumbotron">
+					<p class="descripcion">{{ producto.descripcion }}</p>
+				</div>
+				<div>
+					<p> {{ producto.precio }}</p>
+				</div>	
+
+          </div>
+				<div class="ratingCont text-center"> 
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+						<span class="stars glyphicon glyphicon-star-empty"></span>
+
+					</div>
+
+			</div>
+
+
+		</div>
+
+	</div>
+<!--<div ng-include='/views/producto.html'</div>-->
 
 <!-- /ARTICULOS -->
 <script src="./node_modules/angular/angular.min.js"></script>
